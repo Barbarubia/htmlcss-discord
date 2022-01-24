@@ -4,3 +4,80 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* STILE INTESTAZIONE */
+
+header {
+    background-color: #3161e0;
+    line-height: 3rem;
+}
+
+.margin-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* MENU PRINCIPALE */
+
+.navbar {
+    width: 80%;
+    float: left;
+    margin: 0 -1.5rem;
+}
+    
+.navbar ul {
+    text-align: center;
+    list-style: none;
+    font-size: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: .8rem;
+    margin: 0 1.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* BOTTONE LOGIN */
+
+header .login {
+    width: 10%;
+    float: right;
+    text-align: right;
+}
+header .login-button {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: .8rem;
+    padding: .3rem .7rem;
+    border-style: none;
+    border-radius: .7rem;
+    vertical-align: middle;
+}
+
+
