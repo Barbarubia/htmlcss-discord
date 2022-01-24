@@ -13,6 +13,7 @@ html {
 header {
     background-color: #2a5ee8;
     line-height: 3rem;
+    padding: 1rem 0;
 }
 
 .margin-container {
@@ -51,7 +52,7 @@ header {
 
 .navbar li {
     display: inline-block;
-    font-size: .8rem;
+    font-size: 1rem;
     margin-right: 1.5rem;
 }
 
@@ -78,11 +79,16 @@ header .login {
 header .login-button {
     background-color: white;
     color: black;
-    font-size: .8rem;
+    font-size: 1rem;
     padding: .3rem .7rem;
     border-style: none;
     border-radius: .7rem;
     text-decoration: none;
+}
+
+header .login-button:hover {
+    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.7);
+    color: #5865f2;
 }
 
 /* SEZIONE PRINCIPALE JUMBO */
@@ -216,4 +222,103 @@ header .login-button {
 .download-button-blue {
     background-color: #7983f5;
     color: white;
+    margin-bottom: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #23272a;
+    color: #5865f2;
+}
+
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.footer-menu-container {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #5865f2;
+}
+
+.footer-column {
+    float: left;
+}
+
+.column-large {
+    width: 30%;
+    padding-right: 1.5rem;
+}
+
+.column-small {
+    width: calc((100% - 30%) / 4);
+}
+
+.footer-column h1 {
+    font-size: 1.5rem;
+}
+
+/* SCELTA LINGUA */
+
+.language-choise {
+    margin: 1rem 0;
+}
+
+.language-choise .flag{
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.language-choise .language-select {
+    vertical-align: middle;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.language-choise .language-select option {
+    color: black;
+}
+
+/* LINK AI SOCIAL NETWORKS */
+
+.socials ul {
+    list-style: none;
+    font-size: 0;
+}
+
+.socials li {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.fab {
+    color: white;
+}
+
+/* COLONNE CON LINK VARI */
+
+.column-small ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.column-small li {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.column-small a {
+    text-decoration: none;
+    color: white;
+}
+
+/* EFFETTI HOVER LINK E BOTTONI */
+
+.navbar a:hover /* menu superiore */,
+.column-small a:hover /* menu nel footer */ { 
+    text-decoration: underline;
 }
