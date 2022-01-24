@@ -113,8 +113,8 @@ header .login-button {
 
 /* BOTTONI DOWNLOAD E APRI NEL BROWSER */
 
-.jumbo .download-button,
-.jumbo .open-button {
+.download-button,
+.open-button {
     display: inline-block;
     text-decoration: none;
     font-size: 1rem;
@@ -123,16 +123,16 @@ header .login-button {
     border-radius: 1.5rem;
 }
 
-.jumbo .download-button {
+.download-button {
     background-color: white;
     color: black;
 }
 
-.jumbo .download-button i {
+.download-button i {
     margin-right: 1rem;
 }
 
-.jumbo .open-button {
+.open-button {
     background-color: black;
     color: white;
 }
@@ -183,10 +183,37 @@ header .login-button {
     line-height: 1.5rem;
 }
 
-.functions-container .centered img {
+.centered {
+    padding-bottom: 0;
+}
+
+.centered img {
     width: 100%;
 }
 
-.functions-container .centered-text h2 {
+.centered h2 {
     text-align: center;
+}
+
+.centered p {
+    text-align: center;
+}
+
+.functions-description .download {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.functions-description .download h3 {
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+.download-button-blue {
+    background-color: #7983f5;
+    color: white;
 }
