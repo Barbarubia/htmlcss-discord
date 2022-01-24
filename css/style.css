@@ -11,7 +11,7 @@ html {
 /* STILE INTESTAZIONE */
 
 header {
-    background-color: #3161e0;
+    background-color: #2a5ee8;
     line-height: 3rem;
 }
 
@@ -41,7 +41,6 @@ header {
 .navbar {
     width: 80%;
     float: left;
-    margin: 0 -1.5rem;
 }
     
 .navbar ul {
@@ -53,8 +52,14 @@ header {
 .navbar li {
     display: inline-block;
     font-size: .8rem;
-    margin: 0 1.5rem;
+    margin-right: 1.5rem;
 }
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+
 
 .navbar a {
     color: white;
@@ -69,15 +74,66 @@ header .login {
     float: right;
     text-align: right;
 }
+
 header .login-button {
-    width: 100%;
     background-color: white;
     color: black;
     font-size: .8rem;
     padding: .3rem .7rem;
     border-style: none;
     border-radius: .7rem;
-    vertical-align: middle;
+    text-decoration: none;
 }
 
+/* SEZIONE PRINCIPALE JUMBO */
+
+.jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbo-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 7rem 0;
+    color: white;
+    text-align: center;
+}
+
+.jumbo h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.jumbo p {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* BOTTONI DOWNLOAD E APRI NEL BROWSER */
+
+.jumbo .download-button,
+.jumbo .open-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+}
+
+.jumbo .download-button {
+    background-color: white;
+    color: black;
+}
+
+.jumbo .download-button i {
+    margin-right: 1rem;
+}
+
+.jumbo .open-button {
+    background-color: black;
+    color: white;
+}
 
