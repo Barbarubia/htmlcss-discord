@@ -137,3 +137,56 @@ header .login-button {
     color: white;
 }
 
+/* STILE DELLE SEZIONI DELLA PAGINA */
+
+.functions-description:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.functions-description:nth-child(even) {
+    background-color: white;
+}
+
+.functions-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.functions-container img {
+    width: 70%;
+    display: inline-block;
+}
+
+.functions-container .column {
+    padding-top: 2rem;
+    width: 30%;
+    display: inline-block;
+}
+
+.functions-container .left-column {
+    float: right;
+    padding-left: 3rem;
+}
+
+.functions-container .right-column {
+    float: left;
+    padding-right: 3rem;
+}
+
+.functions-container .description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.functions-container .description p {
+    line-height: 1.5rem;
+}
+
+.functions-container .centered img {
+    width: 100%;
+}
+
+.functions-container .centered-text h2 {
+    text-align: center;
+}
