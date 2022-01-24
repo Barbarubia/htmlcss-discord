@@ -134,7 +134,7 @@ header .login-button {
 }
 
 .open-button {
-    background-color: black;
+    background-color: #222222;
     color: white;
 }
 
@@ -327,7 +327,7 @@ footer .last-row .register-button {
     float: right;
     background-color: #5865f2;
     color: white;
-    font-size: 1rem;
+    font-size: .8rem;
     padding: .3rem .7rem;
     border-style: none;
     border-radius: .7rem;
@@ -342,7 +342,23 @@ footer .last-row .register-button {
     text-decoration: underline;
 }
 
-header .login-button:hover { /* bottone login */
-    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.7);
+header .login-button:hover /*bottone login */,
+.download-button:hover /* bottone download jumbo e section */,
+.open-button:hover /* bottone apri nel browser jumbo */,
+.register-button:hover /* bottone registrati nel footer */ {
+    box-shadow: 0 .5rem .8rem rgba(0,0,0,.6);
+}
+
+header .login-button:hover /*bottone login */,
+.jumbo .download-button:hover /* bottone download jumbo */ {
     color: #5865f2;
+}
+
+.open-button:hover /* bottone apri nel browser jumbo */ {
+    background-color: #333333;
+}
+
+.download-button-blue:hover,
+footer .last-row .register-button:hover {
+    background-color: #8892ff;
 }
