@@ -86,11 +86,6 @@ header .login-button {
     text-decoration: none;
 }
 
-header .login-button:hover {
-    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.7);
-    color: #5865f2;
-}
-
 /* SEZIONE PRINCIPALE JUMBO */
 
 .jumbo {
@@ -316,9 +311,38 @@ footer {
     color: white;
 }
 
+/* ULTIMA RIGA FOOTER */
+
+.last-row {
+    margin: 3rem 0;
+}
+
+footer .last-row .logo {
+    float: left;
+}
+
+/* BOTTONE REGISTRAZIONE*/
+
+footer .last-row .register-button {
+    float: right;
+    background-color: #5865f2;
+    color: white;
+    font-size: 1rem;
+    padding: .3rem .7rem;
+    border-style: none;
+    border-radius: .7rem;
+    text-decoration: none;
+}
+
+
 /* EFFETTI HOVER LINK E BOTTONI */
 
 .navbar a:hover /* menu superiore */,
 .column-small a:hover /* menu nel footer */ { 
     text-decoration: underline;
+}
+
+header .login-button:hover { /* bottone login */
+    box-shadow: .3rem .3rem .5rem rgba(0,0,0,.7);
+    color: #5865f2;
 }
